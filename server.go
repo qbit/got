@@ -2,6 +2,7 @@ package main
 
 import (
 	//"github.com/eaigner/shield"
+	"fmt"
 	"github.com/qbit/goirc"
 	"log"
 )
@@ -20,4 +21,6 @@ func main() {
 	}
 
 	client.Connect()
+
+	fmt.Println(client.Recv(0, true))
 }

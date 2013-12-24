@@ -1,6 +1,9 @@
 {
-	"server": "irc.freenode.net",
-	"nick": "gottest",
 	"channels": "#got-test",
-	"reconnect": true
+	"nick": "gottest",
+	"real": "Got Bot",
+	"reconnect": true,
+	"server": "irc.freenode.net",
+	"sys": "gotbot",
+	"user": "gotbot"
 }
