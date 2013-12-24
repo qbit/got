@@ -7,3 +7,5 @@ Architecture
       bot.
     - **Client component** - actually makes connection to IRC, can run when
       server component is down.
+3. General NLP package to be written that is exposed to the DSL. This will allow
+   general parsing / classification of messages.

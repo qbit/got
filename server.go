@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gokyle/goirc"
+	"github.com/qbit/goirc"
 	"log"
 )
 
