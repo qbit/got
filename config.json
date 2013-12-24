@@ -1,6 +1,6 @@
 {
 	"server": "irc.freenode.net",
 	"nick": "gottest",
-	"channels": ["#got-test"],
+	"channels": "#got-test",
 	"reconnect": true
 }
