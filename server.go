@@ -1,6 +1,7 @@
 package main
 
 import (
+	//"github.com/eaigner/shield"
 	"github.com/qbit/goirc"
 	"log"
 )
@@ -11,8 +12,6 @@ func errr(e error, msg string) {
 	}
 }
 
-
-
 func main() {
 	client, err := goirc.NewIrc("config.json")
 
@@ -22,4 +21,3 @@ func main() {
 
 	client.Connect()
 }
-
